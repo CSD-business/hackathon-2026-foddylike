@@ -11,12 +11,22 @@ config_version=5
 [application]
 
 config/name="Hackathon 2026 - The Foddylike"
+run/main_scene="uid://carlqrnthvqu4"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=128
+window/size/viewport_height=72
+window/size/mode=2
+window/stretch/mode="viewport"
+window/stretch/aspect="keep_height"
 
 [physics]
 
 3d/physics_engine="Jolt Physics"
+2d/default_gravity=98.0
 
 [rendering]
 
